@@ -1,0 +1,23 @@
+body{
+    text-align:center;
+    background:#111;
+    color:white;
+    font-family:Arial;
+}
+
+.container{
+    position:relative;
+    width:640px;
+    margin:auto;
+}
+
+video,canvas{
+    position:absolute;
+    width:640px;
+    height:480px;
+    border-radius:10px;
+}
+
+canvas{
+    z-index:2;
+}
